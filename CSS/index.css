@@ -1,0 +1,83 @@
+body, html {
+    height: 97%;
+  }
+
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    
+    background-size: cover;
+}
+
+.topButtons{
+    float: right;
+    margin: 8px;
+    padding: 7px 14px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+#pageTitle{
+    font-family: marck script;
+    font-size: xxx-large;
+    color: blue;
+    text-decoration: none;
+}
+.middleText{
+    font-family: 'Satisfy';
+    color: black;
+    margin: auto;
+}
+
+
+.postButtons{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+
+}
+
+.middleBtn{
+    padding: 6px;
+    margin: 0px 4px;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+}
+
+#staticBackdropLabel1{
+    padding: 0px 160px;;
+}
+.form-label{
+    font-weight: bold;
+}
+.btn-close{
+    position: absolute;
+    left: 88%;
+}
+#staticBackdropLabel{
+    padding: 0px 198px;
+}
+.btn-btn-primary{
+    border-radius: 0px;
+    width: -webkit-fill-available;
+    margin-top: 10px;
+    background-color: orange;
+    padding: 9px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+#footerP{
+    width: 68%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+#textInput{
+    width: -webkit-fill-available;
+}
