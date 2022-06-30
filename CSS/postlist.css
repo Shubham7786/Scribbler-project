@@ -1,0 +1,105 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #6fb2e1;
+    }
+    30% {
+        background-color: #a47e81;
+    }
+    60% {
+        background-color: #b776eb;
+    }
+    90% {
+        background-color: rgb(233 173 96);
+    }
+    100% {
+        background-color: #79d37c;
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.container{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newCard{
+    border-radius: 25px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    margin: 15px 25px;
+    width: 500px;
+    transition: box-shadow .3s;
+  
+}
+
+.newCard:hover {
+    box-shadow: 0 0  5px 5px rgba(33,33,33,.2); 
+  }
+  
+.card-body{
+    height: 150px; 
+    background-color: #DCDCDC;
+    width: 83%;
+    padding: 5px;
+    font-size: 14px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+
+.card-left-block{
+    height: 150px;
+    width: 17%;
+    text-align: center;
+    background-color: white;
+    padding: 40px 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color:gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.post-body-heading{
+    color:rgb(1, 1, 1);
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-top: 8px;
+ }
+
+.post-text{
+    overflow: hidden; 
+    white-space: normal; 
+    margin-bottom: 0px;
+    height: 4.8em;  
+    text-overflow: -o-ellipsis-lastline; 
+}
+
+.trash-button{
+    float: right;
+    padding-right: 10px;
+    size: 10px;
+    cursor: pointer;
+}
+
+.ellipsis{
+    margin-left: 370px;
+    color: grey;
+     cursor: pointer;
+     padding-right: 120px;
+     margin-bottom: 4px; 
+  
+   
+ }

@@ -18,6 +18,7 @@ body {
     background-color: blue;
     color: white;
     border: none;
+    border-radius: 10px
 }
 
 #pageTitle{

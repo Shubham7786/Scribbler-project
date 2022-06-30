@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(254, 174, 24);
-}
+
 .topButtons{
     float: right;
     margin: 8px;
@@ -8,6 +6,7 @@ body{
     background-color: blue;
     color: white;
     border: none;
+    border-radius: 10px
 }
 
 #pageTitle{
