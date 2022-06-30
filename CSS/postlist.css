@@ -103,3 +103,32 @@ body {
   
    
  }
+
+
+ .btn-btn-success{
+    width: 35%;
+    padding: 6px;
+    background-color: rgb(255, 40, 40);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-btn-danger{
+    width: 35%;
+    border-radius: 0px;
+    background-color: rgb(18, 132, 18);
+    border: none;
+    float: right;
+    padding: 6px;
+    color: white;
+}
+
+.modal-footer{
+    display: block;
+}
+
+.modal-title{
+    font-size: larger;
+    margin: auto;
+}
