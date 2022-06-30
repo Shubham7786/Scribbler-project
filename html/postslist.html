@@ -25,15 +25,15 @@
 <body>
     <!-- TODO: Include code for header here -->
     <!--Header-->
-
+    
     <div class="Header">
         <button class="topButtons" data-bs-toggle="modal" data-bs-target="#exampleModalSignUp">Sign Up</button>
         <button class="topButtons" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
         <a id="pageTitle" class="logo-title">Scribbler</a>
         <p class="middleText">Explore. Imagine. Create</p>
-
+    
     </div>
-
+    
     <!-- sign in -->
     <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -47,74 +47,80 @@
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Username</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter Username">
-
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter Username">
+    
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1"
                                 placeholder="Enter Password">
                         </div>
-
+    
                         <button type="button" class="btn-btn-primary" data-toggle="modal" data-target="#exampleModal"
                             id="exampleModal">
                             Sign In
                         </button>
-
-
+    
+    
                     </form>
                     <div class="modal-footer">
-                            <p id="footerP">Not a member? <a href="">Sign Up</a></p>
+                        <p id="footerP">Not a member? <a href="">Sign Up</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!--/sign in-->
-
-    <div class="modal fade" id="exampleModalSignUp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Join Us</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-        <div class="mb-3">
-          <label for="exampleInputName1" class="form-label">Full Name</label>
-          <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Full Name">
-          
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Username</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
-            
-          </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
-        </div>
     
-        <div class="mb-3">
-            <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
-          </div>
-        
-        <button type="button" class="btn-btn-primary" data-toggle="modal" data-target="#exampleModalSignUp" id="exampleModalSignUp">
-            Sign Up
-          </button> 
-        
-      </form>
+    <!--/sign in-->
+    
+    <div class="modal fade" id="exampleModalSignUp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Join Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp"
+                                placeholder="Enter Full Name">
+    
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter Username">
+    
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Enter Password">
+                        </div>
+    
+                        <div class="mb-3">
+                            <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2"
+                                placeholder="Confirm Password">
+                        </div>
+    
+                        <button type="button" class="btn-btn-primary" data-toggle="modal" data-target="#exampleModalSignUp"
+                            id="exampleModalSignUp">
+                            Sign Up
+                        </button>
+    
+                    </form>
+                </div>
+    
             </div>
-            
-          </div>
         </div>
-      </div>
-        <!--/sign up-->
-         <!--/Header-->
+    </div>
+    <!--/sign up-->
+    <!--/Header-->
 
 
     <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
@@ -139,7 +145,7 @@
                 </div>
                 </div>
                 <p class="post-text" id="content1">Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-                <span class="ellipsis" >
+                <span class="ellipsis" onclick="openPost(author1,heading1,content1)">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
                     <i style="font-size:24px" class="fa">&#xf141;</i>
                 </span>
@@ -189,7 +195,7 @@
                 </div>
                 </div>
                 <p class="post-text" id="content2">One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
-                <span class="ellipsis" >
+                <span class="ellipsis" onclick="openPost(author2,heading2,content2)">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
                     <i style="font-size:24px" class="fa">&#xf141;</i>
                 </span>
@@ -237,7 +243,7 @@
                 </div>
                 </div>
                 <p class="post-text" id="content3">If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
-                <span class="ellipsis" >
+                <span class="ellipsis" onclick="openPost(author3,heading3,content3)">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
                     <i style="font-size:24px" class="fa">&#xf141;</i>
                 </span>
@@ -286,7 +292,7 @@
                 </div>
                 <p class="post-text" id="content4">When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
                     leads to confusion when discussing the code.</p>
-             <span class="ellipsis">
+             <span class="ellipsis" onclick="openPost(author4,heading4,content4)">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
                     <i style="font-size:24px" class="fa">&#xf141;</i>
                 </span>
@@ -335,7 +341,7 @@
                 </div>
                 <p class="post-text" id="content5">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module
                     named xyz.</p>
-        <span class="ellipsis" >
+        <span class="ellipsis" onclick="openPost(author5,heading5,content5)">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
                     <i style="font-size:24px" class="fa">&#xf141;</i>
                 </span>
