@@ -1,43 +1,45 @@
-body{
-    position : relative;
-     bottom:0;
-}
-.post-container{
-    margin: 8px 240px;
-}
-.heading-content{
-   text-align: center;
-   font-size: 25px;
-   font-weight: bolder;
+body {
+    position: relative;
+    bottom: 0;
 }
 
-.author{
+.post-container {
+    margin: 8px 240px;
+}
+
+.heading-content {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.author {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 }
 
-.author-name{
+.author-name {
     font-family: 'Courier New', Courier, monospace;
-   font-weight: bold;
-   font-size: 20px;
-   width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
 }
 
-#comments{
+#comments {
     background-color: lightgrey;
     width: 100%;
     margin: 10px;
     padding: 10px;
 }
 
-.comment{
+.comment {
     background-color: white;
     margin: 10px;
     padding: 10px;
 }
 
-#edit-button{
+#edit-button {
     margin-left: 500px;
     float: right;
     height: 40px;
@@ -46,12 +48,12 @@ body{
     border-radius: 2px;
 }
 
-.post-content{
+.post-content {
     word-wrap: break-word;
     margin-top: 20px;
 }
 
-#like-button{
+#like-button {
     margin-top: 20px;
     margin-bottom: 10px;
     height: 40px;
@@ -60,7 +62,7 @@ body{
     border-radius: 2px;
 }
 
-#comment-button{
+#comment-button {
     margin-top: 20px;
     margin-bottom: 20px;
     height: 40px;
@@ -69,17 +71,17 @@ body{
     border-radius: 2px;
 }
 
-#showCount{
+#showCount {
     margin-bottom: 30px;
 
 }
 
-#allCommentsHeading{
+#allCommentsHeading {
     font-weight: bolder;
     padding-top: 10px;
 }
 
-.comment-container{
+.comment-container {
     min-height: 0px;
     overflow: hidden;
 }
